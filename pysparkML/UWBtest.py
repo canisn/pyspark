@@ -1,7 +1,7 @@
 # coding=UTF-8
 from pyspark.sql import SparkSession
 
-from pyspark.ml.feature import StringIndexer, VectorAssembler
+from pyspark.ml.feature import VectorAssembler
 from pyspark.ml.classification import MultilayerPerceptronClassifier
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 from pyspark.sql.types import DoubleType, IntegerType
@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     spark = SparkSession\
         .builder\
-        .appName("MLPClassifier")\
+        .appName("UWBClassifier")\
         .getOrCreate()
 
     df = spark.read.csv('./data/uwb/Train_Test_Data_8000dB.csv', header=True)
@@ -44,33 +44,44 @@ if __name__ == "__main__":
     df = df.withColumn("deletaPhi9", df["deletaPhi9"].cast(DoubleType()))
     df = df.withColumn("deletaPhi10", df["deletaPhi10"].cast(DoubleType()))
     df = df.withColumn("deletaPhi11", df["deletaPhi11"].cast(DoubleType()))
-    df = df.withColumn("distance", df["distance"].cast(DoubleType()))
+    df = df.withColumn("distance", df["distance"].cast(IntegerType()))
+    df = df.withColumn("dis", df["dis"].cast(IntegerType()))
 
-    print(df.first())
+    print(df.show(2))
     print(df.count())
-    print(df.dtypes)
+    # print(df.dtypes)
+
+    df.createOrReplaceTempView("tempView1")
+    df2 = spark.sql("SELECT distance FROM tempView1")
+    outNums = df2.distinct().count()
+    print(outNums)
 
     # assemble features
     assembler = VectorAssembler(
-        inputCols=["theta1", "theta2", "theta3", "theta4", "theta5", "theta6", "theta7",
-                   "theta8", "theta9", "theta10", "theta11",
+        inputCols=["theta1", "theta2", "theta3", "theta4", "theta5", "theta6",
+                   "theta7", "theta8", "theta9", "theta10", "theta11",
                    "deletaPhi1", "deletaPhi2", "deletaPhi3", "deletaPhi4", "deletaPhi5", "deletaPhi6",
                    "deletaPhi7", "deletaPhi8", "deletaPhi9", "deletaPhi10", "deletaPhi11"],
         outputCol="features")
     df = assembler.transform(df)
 
-    (trainingData, testData) = df.randomSplit([0.8, 0.2])
+    (trainingData, testData) = df.randomSplit([0.4, 0.1])
+    # print(trainingData.first())
+    print(trainingData.count())
+    # print(testData.first())
+    print(testData.count())
 
-    layers = [22, 8, 4, 2]  # input: 7 features; output: 2 classes
-    mlp = MultilayerPerceptronClassifier(maxIter=1000, layers=layers,
+    # 就特么能二分类装毛儿还让我输出分类数啊！！！！
+    layers = [22, 5, outNums]  # input: 22 features; output: 2 classes
+    mlp = MultilayerPerceptronClassifier(maxIter=10, layers=layers,
                                          labelCol="distance", featuresCol="features",
-                                         blockSize=128, seed=0)
+                                         blockSize=128, seed=10)
 
     model = mlp.fit(trainingData)
     result = model.transform(testData)
 
-    prediction_label = result.select("prediction", "distance")
     evaluator = MulticlassClassificationEvaluator(labelCol="distance", predictionCol="prediction",
                                                   metricName="accuracy")
+    prediction_label = result.select("prediction", "distance")
     print("MLP test accuracy: " + str(evaluator.evaluate(prediction_label)))
 

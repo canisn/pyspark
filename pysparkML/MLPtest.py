@@ -27,6 +27,7 @@ if __name__ == "__main__":
     df = df.withColumn("SibSp", df["SibSp"].cast(IntegerType()))
     df = df.withColumn("Parch", df["Parch"].cast(IntegerType()))
     df = df.withColumn("Fare", df["Fare"].cast(DoubleType()))
+
     print(df.dtypes)
 
     # fill NaN
@@ -49,6 +50,10 @@ if __name__ == "__main__":
     df = assembler.transform(df)
 
     (trainingData, testData) = df.randomSplit([0.8, 0.2])
+    print(trainingData.first())
+    print(trainingData.count())
+    print(testData.first())
+    print(testData.count())
 
     layers = [7, 8, 4, 2]  # input: 7 features; output: 2 classes
     mlp = MultilayerPerceptronClassifier(maxIter=1000, layers=layers,
@@ -58,7 +63,7 @@ if __name__ == "__main__":
     model = mlp.fit(trainingData)
     result = model.transform(testData)
 
-    prediction_label = result.select("prediction", "Survived")
     evaluator = MulticlassClassificationEvaluator(labelCol="Survived", predictionCol="prediction",
                                                   metricName="accuracy")
+    prediction_label = result.select("prediction", "Survived")
     print("MLP test accuracy: " + str(evaluator.evaluate(prediction_label)))

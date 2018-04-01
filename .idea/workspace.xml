@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba532148-1345-4ee5-add5-46904cb0b2f5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pysparkML/MLPtest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pysparkML/UWBtest.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pyspark.iml" afterPath="$PROJECT_DIR$/.idea/pyspark.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cluster.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regression.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/pysparkML/testMLlib.py" afterPath="$PROJECT_DIR$/pysparkML/classfication.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pysparkML/MLPtest.py" afterPath="$PROJECT_DIR$/pysparkML/MLPtest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pysparkML/UWBtest.py" afterPath="$PROJECT_DIR$/pysparkML/UWBtest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pysparkML/data/uwb/Train_Test_Data_8000dB.csv" afterPath="$PROJECT_DIR$/pysparkML/data/uwb/Train_Test_Data_8000dB.csv" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,13 +34,12 @@
       <file leaf-file-name="classfication.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pysparkML/classfication.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+            <state relative-caret-position="439">
+              <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="333" selection-end-column="17" />
               <folding>
                 <element signature="e#46#89#0" expanded="true" />
                 <element signature="e#531#1322#0" expanded="false" />
                 <element signature="e#1358#4333#0" expanded="false" />
-                <element signature="e#4357#5788#0" expanded="false" />
                 <element signature="e#5822#7891#0" expanded="false" />
                 <element signature="e#7930#9524#0" expanded="false" />
                 <element signature="e#9563#11171#0" expanded="false" />
@@ -63,8 +62,8 @@
       <file leaf-file-name="MLPtest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pysparkML/MLPtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="54" column="78" lean-forward="true" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+            <state relative-caret-position="637">
+              <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
               </folding>
@@ -72,14 +71,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UWBtest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UWBtest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pysparkML/UWBtest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
               <folding>
                 <element signature="e#15#51#0" expanded="true" />
+                <marker date="1522587581952" expanded="true" signature="2554:2584" ph="SELECT dista... tempView1" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cluster.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cluster.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="classification.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/install/python3.6.1/Lib/site-packages/pyspark/ml/classification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="1544" column="34" lean-forward="false" selection-start-line="1544" selection-start-column="17" selection-end-line="1544" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,6 +140,8 @@
         <option value="$PROJECT_DIR$/pysparkML/ml-100k/UWBtest.py" />
         <option value="$PROJECT_DIR$/pysparkML/MLPtest.py" />
         <option value="$PROJECT_DIR$/pysparkML/UWBtest.py" />
+        <option value="$PROJECT_DIR$/cluster.py" />
+        <option value="$PROJECT_DIR$/regression.py" />
       </list>
     </option>
   </component>
@@ -367,7 +403,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1570" y="10" width="1580" height="1359" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -376,7 +411,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.360134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27091634" sideWeight="0.4947644" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27091634" sideWeight="0.4947644" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27091634" sideWeight="0.5052356" order="2" side_tool="true" content_ui="tabs" />
@@ -413,7 +448,6 @@
             <element signature="e#46#89#0" expanded="true" />
             <element signature="e#531#1322#0" expanded="false" />
             <element signature="e#1358#4333#0" expanded="false" />
-            <element signature="e#4357#5788#0" expanded="false" />
             <element signature="e#5822#7891#0" expanded="false" />
             <element signature="e#7930#9524#0" expanded="false" />
             <element signature="e#9563#11171#0" expanded="false" />
@@ -446,27 +480,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pysparkML/classfication.py">
+    <entry file="file://D:/install/python3.6.1/Lib/site-packages/pyspark/ml/evaluation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="95" column="16" lean-forward="false" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
-          <folding>
-            <element signature="e#46#89#0" expanded="true" />
-            <element signature="e#531#1322#0" expanded="false" />
-            <element signature="e#1358#4333#0" expanded="false" />
-            <element signature="e#4357#5788#0" expanded="false" />
-            <element signature="e#5822#7891#0" expanded="false" />
-            <element signature="e#7930#9524#0" expanded="false" />
-            <element signature="e#9563#11171#0" expanded="false" />
-            <element signature="e#11197#12908#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="69">
+          <caret line="301" column="0" lean-forward="true" selection-start-line="301" selection-start-column="0" selection-end-line="301" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pysparkML/MLPtest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="54" column="78" lean-forward="true" selection-start-line="54" selection-start-column="78" selection-end-line="54" selection-end-column="78" />
+        <state relative-caret-position="637">
+          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding>
             <element signature="e#15#51#0" expanded="true" />
           </folding>
@@ -475,10 +500,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pysparkML/UWBtest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="68" column="33" lean-forward="true" selection-start-line="68" selection-start-column="33" selection-end-line="68" selection-end-column="33" />
           <folding>
             <element signature="e#15#51#0" expanded="true" />
+            <marker date="1522587581952" expanded="true" signature="2554:2584" ph="SELECT dista... tempView1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pysparkML/classfication.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="327" column="0" lean-forward="false" selection-start-line="327" selection-start-column="0" selection-end-line="333" selection-end-column="17" />
+          <folding>
+            <element signature="e#46#89#0" expanded="true" />
+            <element signature="e#531#1322#0" expanded="false" />
+            <element signature="e#1358#4333#0" expanded="false" />
+            <element signature="e#5822#7891#0" expanded="false" />
+            <element signature="e#7930#9524#0" expanded="false" />
+            <element signature="e#9563#11171#0" expanded="false" />
+            <element signature="e#11197#12908#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/install/python3.6.1/Lib/site-packages/pyspark/ml/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="1544" column="34" lean-forward="false" selection-start-line="1544" selection-start-column="17" selection-end-line="1544" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="203" column="0" lean-forward="true" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
