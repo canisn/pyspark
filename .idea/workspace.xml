@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba532148-1345-4ee5-add5-46904cb0b2f5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/pyspark.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/BonusChapter01/HelloWorldFromPySpark.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/LearningPySpark_Chapter02.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/db.lck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/dbex.lck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/log/log.ctrl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/log/log1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/log/logmirror.ctrl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c10.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c101.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c111.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c121.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c130.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c141.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c150.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c161.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c171.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c180.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c191.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c1a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c1b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c1c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c1d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c1e0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c1f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c20.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c200.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c211.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c221.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c230.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c241.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c251.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c260.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c271.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c281.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c290.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c2a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c2b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c2c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c2d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c2e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c2f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c300.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c31.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c311.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c321.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c331.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c340.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c351.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c361.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c371.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c380.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c391.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c3a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c3b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c3c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c3d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c3e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c3f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c400.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c41.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c411.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c421.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c430.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c441.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c451.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c461.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c470.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c481.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c490.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c4a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c4b0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c4c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c4d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c4e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c4f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c501.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c51.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c510.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c521.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c530.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c541.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c550.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c561.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c570.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c581.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c590.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c5a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c5b0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c5c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c5d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c5e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c5f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c60.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c601.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c610.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c621.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c630.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c641.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c650.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c661.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c670.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c681.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c690.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c6a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c6b0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c6c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c6d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c6e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c6f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c701.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c71.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c711.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c721.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c731.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c741.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c751.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c761.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c771.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c781.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c791.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c7a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c7b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c7c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c7d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c7e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c7f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c801.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c81.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c811.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c821.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c831.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c840.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c851.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c860.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c871.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c880.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c891.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c8a0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c8b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c8c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c8d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c8e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c8f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c90.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c901.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c911.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c920.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c931.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c940.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c951.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c960.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c971.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c981.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c990.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c9a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c9b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c9c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c9d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c9e0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/c9f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/ca01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/ca1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/ca11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/ca21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/cb1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/cc0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/cd1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/ce1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/seg0/cf0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter02/metastore_db/service.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/LearningPySpark_Chapter03.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/flight-data/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/flight-data/airport-codes-na.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter03/flight-data/departuredelays.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter04/LearningPySpark_Chapter04.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter05/LearningPySpark_Chapter05.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/LearningPySpark_Chapter06.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/db.lck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/dbex.lck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/log/log.ctrl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/log/log1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/log/log2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/log/logmirror.ctrl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c10.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c101.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c111.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c121.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c130.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c141.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c150.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c161.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c171.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c180.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c191.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c1a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c1b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c1c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c1d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c1e0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c1f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c20.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c200.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c211.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c221.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c230.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c241.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c251.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c260.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c271.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c281.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c290.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c2a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c2b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c2c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c2d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c2e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c2f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c300.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c31.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c311.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c321.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c331.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c340.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c351.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c361.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c371.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c380.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c391.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c3a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c3b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c3c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c3d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c3e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c3f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c400.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c41.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c411.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c421.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c430.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c441.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c451.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c461.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c470.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c481.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c490.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c4a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c4b0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c4c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c4d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c4e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c4f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c501.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c51.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c510.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c521.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c530.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c541.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c550.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c561.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c570.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c581.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c590.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c5a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c5b0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c5c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c5d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c5e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c5f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c60.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c601.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c610.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c621.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c630.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c641.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c650.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c661.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c670.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c681.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c690.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c6a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c6b0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c6c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c6d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c6e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c6f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c701.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c71.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c711.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c721.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c731.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c741.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c751.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c761.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c771.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c781.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c791.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c7a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c7b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c7c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c7d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c7e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c7f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c801.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c81.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c811.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c821.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c831.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c840.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c851.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c860.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c871.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c880.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c891.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c8a0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c8b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c8c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c8d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c8e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c8f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c90.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c901.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c911.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c920.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c931.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c940.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c951.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c960.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c971.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c981.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c990.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c9a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c9b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c9c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c9d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c9e0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/c9f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/ca01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/ca1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/ca11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/ca21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/cb1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/cc0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/cd1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/ce1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/seg0/cf0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter06/metastore_db/service.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter07/LearningPySpark_Chapter07.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter08/LearningPySpark_Chapter08.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter09/LearningPySpark_Chapter09.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/stateful_streaming_word_count.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/streaming_word_count.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter10/structured_streaming_word_count.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/additionalCode/setup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/additionalCode/utilities/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/additionalCode/utilities/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/additionalCode/utilities/converters/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/additionalCode/utilities/converters/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/additionalCode/utilities/converters/distance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/additionalCode/utilities/geoCalc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/calculatingGeoDistance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Chapter11/launch_spark_submit.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pyspark" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="testMLlib.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pysparkML/testMLlib.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="134" column="16" lean-forward="true" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+              <folding>
+                <element signature="e#46#89#0" expanded="true" />
+                <element signature="e#531#1322#0" expanded="false" />
+                <element signature="e#1358#4333#0" expanded="false" />
+                <element signature="e#4357#5788#0" expanded="false" />
+                <element signature="e#5822#7891#0" expanded="false" />
+                <element signature="e#7930#9524#0" expanded="false" />
+                <element signature="e#9563#11171#0" expanded="false" />
+                <element signature="e#11197#12908#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="learning.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pysparkML/learning.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2278">
+              <caret line="18" column="32" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/install/python36/Lib/site-packages/pyspark/ml/param/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2322">
+              <caret line="349" column="8" lean-forward="false" selection-start-line="349" selection-start-column="8" selection-end-line="349" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/install/python36/Lib/site-packages/pyspark/ml/base.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/sparkMLlib/learning.py" />
+        <option value="$PROJECT_DIR$/sparkMLlib/testMLlib.py" />
+        <option value="$PROJECT_DIR$/pysparkML/learning.py" />
+        <option value="$PROJECT_DIR$/pysparkML/testMLlib.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1017" />
+    <option name="width" value="1038" />
+    <option name="height" value="1129" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyspark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyspark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pysparkML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyspark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pyspark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyspark" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyspark" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyspark" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyspark" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="pyspark" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyspark" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyspark" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba532148-1345-4ee5-add5-46904cb0b2f5" name="Default" comment="" />
+      <created>1521449890915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1521449890915</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1017" y="0" width="1038" height="1129" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964823" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19899498" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21574642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Chapter05/LearningPySpark_Chapter05.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Chapter05/LearningPySpark_Chapter05.ipynb" />
+    <entry file="file://$PROJECT_DIR$/sparkMLlib/learning.py" />
+    <entry file="file://$PROJECT_DIR$/sparkMLlib/testMLlib.py" />
+    <entry file="file://D:/install/python36/Lib/site-packages/pyspark/ml/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3730">
+          <caret line="288" column="8" lean-forward="false" selection-start-line="288" selection-start-column="8" selection-end-line="288" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/install/python36/Lib/site-packages/pyspark/ml/pipeline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/install/python36/Lib/site-packages/pyspark/ml/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="110" column="8" lean-forward="false" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/install/python36/Lib/site-packages/pyspark/ml/param/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2322">
+          <caret line="349" column="8" lean-forward="false" selection-start-line="349" selection-start-column="8" selection-end-line="349" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pysparkML/learning.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2278">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="18" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pysparkML/testMLlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="134" column="16" lean-forward="true" selection-start-line="134" selection-start-column="16" selection-end-line="134" selection-end-column="16" />
+          <folding>
+            <element signature="e#46#89#0" expanded="true" />
+            <element signature="e#531#1322#0" expanded="false" />
+            <element signature="e#1358#4333#0" expanded="false" />
+            <element signature="e#4357#5788#0" expanded="false" />
+            <element signature="e#5822#7891#0" expanded="false" />
+            <element signature="e#7930#9524#0" expanded="false" />
+            <element signature="e#9563#11171#0" expanded="false" />
+            <element signature="e#11197#12908#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
